@@ -1,1 +1,0 @@
-# lendashoppinghand.github.io
