@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>{{ page.title }}</title>
+            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+            <link rel="icon" href="favicon.ico" type="image/x-icon">
+            <link rel="stylesheet" href="/site-libs/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+            <link rel="stylesheet" href="/css/styles.css">
+            <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+            <script src="/site-libs/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+            <script src="/site-libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+            <script src="/js/functions.js"></script>
+        </head>
+		<body>
+            <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
+                <a href="/shopper/dashboard_shopper.html"><img class="logo" src="/assets/logo.PNG"></a>
+                
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="navbar-text" class="nav-link" href="/shopper/dashboard_shopper.html">Dashboard</a>
+                        </li>
+                        <li>
+                            <a class="navbar-text" class="nav-link" href="mailto:lendashoppinghand@gmail.com">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-text" class="nav-link" href="/login.html">Log Out</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container">
+            
+            {{ content }}
+                    
+            </div>
+            <footer>
+                <ul>
+                    <img class="footer-logo logo" src="/assets/logo.PNG">
+                    <p>Copyright 2020 Lend a Shopping Hand | All rights reserved.</p>
+                </ul>
+            </footer>
+        </body>
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=[API-KEY]&callback=initMap">
+        </script>
+	</html>

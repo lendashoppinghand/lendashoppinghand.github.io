@@ -1,0 +1,42 @@
+---
+layout: shopper
+title: Lend a Shopping Hand | Shopper Dashboard
+---
+<div class="lists-dashboard">
+    <div class="card text-white active mb-3">
+        <div class="card-body">
+            <h4 class="card-title-header">Claimed Shopping Lists</h4>
+            <p class="card-text-header">Open the task map to claim a shopping list that's on the same route as yours.
+                Each shopper can claim at most three shopping lists at a time, so orders can be fulfilled with less downtime.
+            </p>
+        </div>
+    </div>
+    <div id="map"></div>
+    <div id="info" class="hidden">
+        <div class="shopping-card card mb-3">
+            <div class="card-body">
+                <h4 class="card-title" id="store-claim-1">Target</h4>
+                <p class="card-text" id="items-claim-1">Shampoo, conditioner, toothpaste</p>
+                <button id="claim-btn" class="btn-sl btn btn-lg visible" onclick=claimList()>Claim List</button>
+            </div>
+        </div>
+    </div>
+    <div class="card text-white finished mb-3">
+        <div class="card-body">
+            <h4 class="card-title-header">Completed Lists</h4>
+            <p class="card-text-header">You should have already received these items and paid for them. We hope you enjoy!</p>
+        </div>
+    </div>
+    <div class="shopping-card shopping-card-f card mb-3">
+        <div class="card-body">
+            <h4 class="card-title" id="store-display-1">Walgreens</h4>
+            <p class="card-text" id="items-display-1">Allegra</p>
+        </div>
+    </div>
+    <div class="shopping-card shopping-card-f card mb-3">
+        <div class="card-body">
+            <h4 class="card-title" id="store-display-1">Home Depot</h4>
+            <p class="card-text" id="items-display-1">Hammer, screwdriver</p>
+        </div>
+    </div>
+</div>
