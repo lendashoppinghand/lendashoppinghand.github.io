@@ -1,5 +1,6 @@
 title: Lend a Shopping Hand
 markdown: kramdown
+repository: lendashoppinghand/lendashoppinghand.github.io
 
 # Build settings
 plugins:
